@@ -6,22 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uploading Docs</title>
     <style>
-    div{
-        background-color: azure;
-        border-color: cadetblue;
-        border-width: 5px;
-        min-width: fit-content;
-
+    body{
+      background-color: #F2EAD3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
     }
+    .maindiv{
+      padding-top: 50px;
+      height:100vh;
+      display: grid;
+      gap:100px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 5fr;
+      grid-row-gap:10px;
+    }
+    hr{
+      border-radius: 3px;
+      border:dotted;
+    }
+    
     </style>
 </head>
 <body>
-    <h1>Important Websites/Upload Documents</h1>
+<div class="maindiv">
+  <div>
+    <h1>Upload Documents</h1>
+  </div>
+  <div >
+    <h1>Important Websites</h1>
+  </div>
 
+  <div class="send">
     <a href = "mailto: codercat55@hotmail.com">Send Email</a>
+  </div>
+    
 
-
-   <div>
+   <div class="website">
         <ol>
           <li><a href="https://alison.com/">Alison</a></li>
           <li><a href="https://www.udacity.com/">Udacity</a></li>
@@ -30,14 +52,14 @@
           <li><a href="https://learndigital.withgoogle.com/digitalgarage/">Google Digital Garage</a></li>
           <li><a href="https://www.classcentral.com/">Class Central</a></li>
         </ol>
-        <hr>
-        <ol>
-          <li><a href="https://elearning-adbi.org/courses/">Asian Development Bank Courses</a></li>
-          <li><a href="https://unitar.org/free-and-open-courses">UN Institue For Training</a></li>
-          <li><a href="https://unccelearn.org/">UN e-learn</a></li>
-        </ol>
+  
+      <ol>
+        <li><a href="https://elearning-adbi.org/courses/">Asian Development Bank Courses</a></li>
+        <li><a href="https://unitar.org/free-and-open-courses">UN Institue For Training</a></li>
+        <li><a href="https://unccelearn.org/">UN e-learn</a></li>
+      </ol>
    </div>
-
+</div>
 
 </body>
 </html>
